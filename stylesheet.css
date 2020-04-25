@@ -31,17 +31,19 @@
   .top-wrapper {
     padding: 180px 0 100px 0;
     min-height: 650px;
-    background-image: url(media/background.png);
     background-size: cover;
+    background-image: url(media/background.png);
     color: white;
     text-align: center;
   }
+
   
   .top-wrapper h1 {
     opacity: 1;
     font-size: 70px;
     letter-spacing: 5px;
     margin-bottom: 10px;
+    font-weight: bold;
     color: #535353;
   }
   
@@ -72,7 +74,7 @@
   }
   
   header {
-    height: 65px;
+    height: 68px;
     width: 100%;
     background-color: rgba(39, 27, 2, 0.9);
     position :fixed;
@@ -110,6 +112,7 @@
   
   .header-right a:hover {
     background-color: rgba(218, 177, 149, 0.301);
+    transform: scale(1.1);
   }
 
   .menu-icon {
@@ -122,7 +125,7 @@
   
   .top-wrapper h1:hover {
     color: #cf7106;
-    transform: scale(1.1);
+    transform: scale(1.05) rotate(2deg);
     transition: all 0.5s;
   }
   
